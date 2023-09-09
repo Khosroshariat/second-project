@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    background-color: #ccfdff;
+}
+a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+    
+}
+
+li {
+    list-style-type: none;
+    padding: 16px;
+}
+
+header {
+    background-color: rgb(245, 218, 245);
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 70px;
+}
+
+.subheader {
+    font-size: 32px;
+    margin: 16px 0px 24px 0px;
+}
+
+button {
+    background-color: rgb(53, 216, 248);
+    color:white;
+    border: none;
+    font-size: 24px;
+    padding: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    }
+
+#discord, #contact,
+#about {
+        padding: 48px 0px;
+    }
+/*
+about
+*/
+
+#about {
+    background-color: rgb(248, 246,
+         204);
+}
+
+h2 {
+    font-size: 68px;
+    text-align: center;
+    margin: 24px;
+}
+
+.section__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__img--wrapper {
+    width: 40%;
+}
+img {
+    width: 100%;
+}
+
+.section__description--wrapper {
+    width: 60%;
+    
+}
+
+.about__img--wrapper ,
+.section__description--wrapper {
+    padding: 0 24px;
+}
+
+.section__description--par {
+    font-size: 22px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+/*
+discord
+*/
+ 
+#discord {
+    background-color: #a1fcfc;
+}
+
+/*
+contact
+*/
+
+#contact {
+    background-color: #f1d5f6;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*
+footer
+*/
+
+
+.footer__logo {
+ width: 100%;
+ max-width: 500px;
+ margin-bottom: 24px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+footer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.footer__wrapper {
+margin: 25px;
+font-size: 16px;
+}
+
+.footer__conection--wrapper {
+    padding: 24px;
+    font-size: 20px;
+    color: rgb(169, 169, 169);
+    justify-content: center;
+    align-items: center;
+}
